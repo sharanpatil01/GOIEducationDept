@@ -28,6 +28,8 @@ public class EduStudentService {
 	@RequestMapping(value = "/find/{studId}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
 	public EduStudent getStudent(@PathVariable(value = "studId") String studId) {
 		// ii) /HydUniv/student/find/{regId}
+	System.out.println("400:===>> EduStudentService.getStudent()>> find/studid");
+	System.out.println("420: Calling EduStudentService.getStudent method!!");
 		return stUtil.getStudent(studId);
 	}
 
