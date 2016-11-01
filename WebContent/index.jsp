@@ -7,7 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
-hiii
-this is index.jsp page
+Hello World!!
+<br><br>
+This is Index.jsp page <br>
+<br>
+	I) http:/HOST:PORT/goi/edu/student <br>
+		a)  get all student "/" <br>
+		b)	get stud by id  "/find/{studId}"<br>
+
+
 </body>
 </html>
