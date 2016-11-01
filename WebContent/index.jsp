@@ -9,7 +9,7 @@
 <body>
 Hello World!!
 <br><br>
-This is Index.jsp page <br>
+This is Index.jsp page for "/GOIEducationDept/" web-app <br>
 <br>
 	I) http:/HOST:PORT/goi/edu/student <br>
 		a)  get all student "/" <br>
